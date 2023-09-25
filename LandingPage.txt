@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+
+  <style>
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:yellow;
+}
+
+html, body {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 20px;
+}
+
+
+
+.showPage {
+  background-size: cover;
+  height: 45vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.container{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.showPage h1 {
+  color: red;
+  font-size: 3.5rem;
+}
+
+.showPage p {
+  color: orange;
+  font-size: 1.5rem;
+}
+.container{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+.btn-1 {
+  background: lightgreen;
+  border: bold;
+  color: darkgreen;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.btn-1:hover {
+  background: #cc4400;
+}
+
+#section-1 {
+   text-align: center;
+   padding: 40px;
+}
+
+#section-1 h1 {
+  margin-bottom: 10px;
+    color: red
+}
+
+#section-2 {
+  margin-bottom: 10px;
+}
+
+#section-2 h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: red
+}
+#section-3 {
+   text-align: center;
+   padding: 40px;
+   
+}
+
+#section-3 h1 {
+  margin-bottom: 10px;
+    color: red
+}
+#section-3 h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#section-4 {
+  margin-bottom: 10px;
+}
+
+#section-4 h1 {
+  text-align: center;
+  margin-bottom: 10px;
+    color: red
+}
+#section-4 h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  min-height: 150px;
+  background: orange;
+  color:red
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+</head>
+<body>
+  
+  <header class="showPage">
+    <h1>SCOTLAND Landing Page</h1>
+    <p>Scotland - A DREAM DESTINATION</p>
+	<h2>Read below to know about this Country</h2>
+    <button type="button" class="btn-1">Read About</button>
+  </header>
+  <div class ="container">
+<img src="C:\Users\ACER\OneDrive\Documents\licensed-image.jpeg" height="500" width="1000"/></img>
+  </div>
+  <section id="section-1">
+    <h1>ABOUT SCOTLAND</h1>
+    <p>Scotland, most northerly of the four parts of the United Kingdom, occupying about one-third of the island of Great Britain. 
+	The name Scotland derives from the Latin Scotia, land of the Scots, a Celtic people from Ireland who settled on the west coast
+	of Great Britain about the 5th century CE. The name Caledonia has often been applied to Scotland, especially in poetry.
+	It is derived from Caledonii, the Roman name of a tribe in the northern part of what is now Scotland.</p>
+  </section>
+  <hr>
+
+  <section id="section-2">
+    <h1>A Place for Poets</h1>
+      <p>An austere land, subject to extremes of weather, Scotland has proved a difficult home for 
+	  countless generations of its people, who have nonetheless prized it for its beauty and unique
+	  culture.“I am a Scotsman,” the poet and novelist Sir Walter Scott wrote in the 19th century;
+	  “therefore I had to fight my way into the world.” Historically one of Europe’s poorest countries,
+	  Scotland has contributed much to political and practical theories of progress: forged in the 
+	  Scottish Enlightenment in the hands of such philosophers as Francis Hutcheson, Adam Smith, and 
+	  David Hume, who viewed humankind as a product of history and the “pursuit of happiness” as an
+	  inalienable right, this progressive ideal contributed substantially to the development of modern
+	  democracy. Scots have also played a vital role in many of the world’s most important scientific
+	  and technological innovations, with inventors, engineers, and entrepreneurs such as Alexander
+	  Graham Bell, James Watt, Andrew Carnegie, and John McAdam extending Scotland’s reach far beyond
+	  the small country’s borders.</p>
+          <p>Hardworking, practical, and proud of their traditions, the Scots have
+		  a reputation for thrift that verges on miserliness. Travelers to the country,
+		  however, often remark on the generosity and friendliness of their hosts, as
+		  well as on the vibrancy of contemporary Scottish culture. An ancient Gaelic 
+		  song, a blessing on cattle and the people who keep them, speaks to that
+		 hospitality in a sometimes inhospitable landscape:</p>
+            <p>Pastures smooth, long, and spreading,
+		    Grassy meads aneath your feet,
+		    The friendship of God the Son to bring you home
+		   To the field of the fountains,
+		   Field of the fountains.
+		   Closed be every pit to you,
+		   Smoothed be every knoll to you,
+		   Cosy every exposure to you,
+		   Beside the cold mountains,
+		   Beside the cold mountains.</p>
+    </div>
+  </section>
+  <hr>
+  
+  <section id="section-3">
+    <h1>Land of Scotland</h1>
+	<h3>Climate, Plant and Animal life</h3>
+    <p>Scotland is bounded by England to the south, the Atlantic Ocean to 
+	the west and north, and the North Sea to the east. The west coast is 
+	fringed by deep indentations (sea lochs or fjords) and by numerous 
+	islands, varying in size from mere rocks to the large landmasses of Lewis and Harris, Skye, and Mull.</p>
+	  <p>Scotland has a temperate oceanic climate, milder than might be expected from its latitude.
+	  Despite its small area, there are considerable variations. Precipitation is greatest in the 
+	  mountainous areas of the west, as prevailing winds, laden with moisture from the Atlantic,
+	  blow from the southwest. East winds are common in winter and spring, when cold, dry continental
+	  air masses envelop the east coast. Hence, the west tends to be milder in winter, with less 
+	  frost and with snow seldom lying long at lower elevations, but it is damper and cloudier than the east in summer.</p>
+	    <p>Lower elevations, up to about 1,500 feet, were once covered with natural forests, which have
+		been cleared over the course of centuries and replaced in some areas by trees, plants, and crops. 
+		Survivals of the original forest are found sporadically throughout the Highlands—for example,
+		in the pinewoods of Rothiemurchus in the Spey valley.   Scotland is rich in animal life for its size.
+		Herds of red deer graze in the corries and remote glens; although formerly woodland dwellers,
+		they are now found mainly on higher ground, but roe deer still inhabit the woods,
+		along with sika and fallow deer (both introduced species) in some areas. Foxes and 
+		badgers are widespread, but the Scottish wildcat has become critically endangered as
+		a result of disease and interbreeding with domestic cats.</p>
+	<hr>
+  </section>
+  <section id="section-4">
+    <h1>People of Scotland</h1>
+	<h3>Ethnic Groups , Languages and Religion </h3>
+    <p>For many centuries continual strife characterized relations between the Celtic
+	Scots of the Highlands and the western islands and the Anglo-Saxons of the Lowlands. 
+	Only since the 20th century has the mixture been widely seen as a basis for a rich unified Scottish culture.</p>
+	    <p>Scotland’s linguistic heritage is complex. The vast majority of the population now
+		speaks English, but both Scottish Gaelic and the Scots language have wide influence.
+		Languages such as Urdu and Punjabi continue to be spoken by immigrant groups, 
+		and the Scottish Parliament provides information in different languages to meet these needs.
+		Gaelic, the Celtic language brought from Ireland by the Scots, is spoken by only a 
+		tiny proportion of the Scottish population, mainly concentrated in the Western Isles
+		and the western Highlands, with pockets elsewhere, especially in Glasgow.</p> 
+		<p>Scotland is relatively free from ethnic and religious strife. The Church of Scotland, 
+		Presbyterian in structure and Evangelical in doctrine, is the established religion and 
+		largest communion, though membership has been steadily declining. It is controlled by a
+		hierarchy of church courts, from the kirk session (governing the affairs of a congregation)
+		through the presbytery (covering a group of parishes) to the General Assembly, at which
+		clergy and lay representatives meet annually in Edinburgh to discuss key issues relating to Scottish society. </p>   
+  </section>
+<hr>
+  <footer>
+    <p>SCOTLAND - A LAND OF YOUR DREAMS. &copy;</p>
+  </footer>
+</body>
+</html>
